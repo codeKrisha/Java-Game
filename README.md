@@ -1,18 +1,9 @@
-## Getting Started
-
-This is My Java Project
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-> Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Gun Game
+This game is based on concepts of `OOP` in Java programming Language.
+###  Project Structure
+- `bin` : all class file are generated here
+- `lib` : empty in this project
+-  `src` : all project file 
+    - `app.java` : this file content `main` method
+    - `Player1.java` : Has information related to first player
+    - `Player2.java` : this class extend `Player1` and ==override== it's method
